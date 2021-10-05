@@ -17,6 +17,7 @@ body{
 header{
     background-color: white;
     padding:5px 20px;
+    margin-bottom: 50px;
 }
 header img{
     vertical-align: middle;
@@ -34,6 +35,98 @@ header img{
 
 /* MAIN */
 
+.container{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.container-list{
+    padding-left: 70px;
+}
 
+/* Top Buttons */
+.buttons{
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.buttons .add-task{
+    background-color: #45abea; 
+    border: 1px solid #45abea;
+    color: white;
+}
+.buttons .add-section{
+    background-color: white;
+    border: 1px solid #c5cbd0;
+    color:#c5cbd0;
+}
+
+/* Main list */
+
+.main-list, .secondary-list{
+    list-style-type: none;
+}
+
+.type-of-task{
+    color: #444851;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* Secondary list */
+.task-content{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #444851;
+}
+.symbol{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+.check{
+    color: #67c2ac;
+    border: 1px solid #67c2ac;
+}
+.cross{
+    color: #eb5a53;
+    border: 1px solid #eb5a53;
+}
+
+.bg-box{
+    color: white;
+    font-size: 12px;
+    padding: 8px 16px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+/* Bg-boxes color background */
+.blue{
+    background-color: #45abea;
+}
+.purple{
+    background-color: #9c72e4;
+}
+.green{
+    background-color:#64c0a9;
+}
+.ocher{
+    background-color: #f29e33;
+}
+.pink{
+    background-color: #d863a1;
+}
+.lightgreen{
+    background-color: #b0c926;
+}
 
 /* END MAIN */
