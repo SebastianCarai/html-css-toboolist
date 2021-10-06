@@ -39,24 +39,29 @@ header img{
     width: 70%;
     margin: auto;
     background-color: white;
-    margin-top: 10px;
-    padding-left: 50px;
 }
 .container-list{
     padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 /* Top Buttons */
+.buttons-container{
+    margin-left: 70px;
+    padding: 10px 0px;
+    border-bottom: 2px solid #f6f8f9;
+}
 .buttons{
     border-radius: 5px;
     padding: 10px 20px;
 }
-.buttons .add-task{
+.add-task{
     background-color: #45abea; 
     border: 1px solid #45abea;
     color: white;
 }
-.buttons .add-section{
+.add-section{
     background-color: white;
     border: 1px solid #c5cbd0;
     color:#c5cbd0;
